@@ -1,17 +1,23 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import HomeHeader from "../components/home/home-header"
-import HomeMission from "../components/home/home-mission"
-import Image from "../components/image"
+import Hero from "../components/hero"
 import SEO from "../components/seo"
 
+import Project from "../components/project"
+import Snapshot from "../components/snapshot"
+
+import "bootstrap/dist/css/bootstrap.min.css"
+import "../styles/style.css"
+
 const IndexPage = () => (
-  <div>
-  <HomeHeader/>
-  <HomeMission/>
-  </div>
+  <Layout>
+    <SEO title="Home" />
+
+    <Hero />
+    <Snapshot />
+
+  </Layout>
 )
 
 export default IndexPage

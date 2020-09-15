@@ -1,52 +1,40 @@
-.pcg-navbar-container {
-    width: 95%;
+:root {
+    --main: #F8F5F5;
+    --accent: #E05600;
+    --black: #060B0E;
+    --text: #060B0E;
+  }
+
+
+.acontainer {
+    width: 100%;
+    background-color: var(--main);
 }
 
-.pcg-navbar-logo {
-    width: 150px;
-}
-
-.pcg-navbar-all {
+.all {
     padding-top: 10px;
-    font-family: "Gothic-light";
-    font-size: 1rem;
+    padding-right: 3rem;
+    font-family: Unica;
+    font-size: 1.7rem;    
 }
 
-.pcg-navbar-item {
+.navbar-item {
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
-.pcg-navbar-link {
-    color: #333333;
+.navbar-link {
+    color: var(--text);
     text-decoration: none;
 }
 
-.pcg-nav-underline {
+.nav-click {
     text-decoration: none;
     position: relative;
 }
   
-.pcg-nav-underline:hover {
+.nav-click:hover {
     text-decoration: none;
-    color: #333333;
-}
-  
-.pcg-nav-underline::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: -10px;
-    left: 0;
-    background-color: #af2d2e;
-    visibility: hidden;
-    /*transform: scaleX(0);*/
-    transition: all 0.0s ease-in-out 0s;
-}
-  
-.pcg-nav-underline:hover::before {
-    visibility: visible;
-    width: 100%;
-    /*transform: scaleX(1);*/
+    color: var(--accent);
+    /* Make the link darker/lighter? to indicate hover */
 }

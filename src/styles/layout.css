@@ -1,33 +1,103 @@
+:root {
+  --main: #F8F5F5;
+  --accent: #E05600;
+  --black: #060B0E;
+  --text: #060B0E;
+}
+
+/* 
+:root {
+  --main: #0C181D;
+  --accent: #E05600;
+  --black: #060B0E;
+  --text: #FFFFFF;
+} */
+
+
 @font-face {
-  font-family: "Gothic-black";
-  src: url("../fonts/GothicA1-Black.ttf") format("truetype");
+  font-family: "Quaver";
+  src: url("../fonts/Quaver/QuaverSerif.otf");
 }
 
 @font-face {
-  font-family: "Gothic-bold";
-  src: url("../fonts/GothicA1-Bold.ttf") format("truetype");
+  font-family: "Fanwood";
+  src: url("../fonts/Fanwood/Fanwood.otf");
 }
 
 @font-face {
-  font-family: "Gothic-light";
-  src: url("../fonts/GothicA1-Light.ttf") format("truetype");
+  font-family: "Fanwood-Text";
+  src: url("../fonts/Fanwood/Fanwood Text.otf");
 }
 
+@font-face {
+  font-family: "Linden";
+  src: url("../fonts/Linden-Hill/Linden Hill.otf");
+}
 
 @font-face {
-  font-family: "Gothic-medium";
-  src: url("../fonts/GothicA1-Medium.ttf") format("truetype");
-} 
+  font-family: "Overpass-Black";
+  src: url("../fonts/Overpass/Overpass-Black.ttf");
+}
+@font-face {
+  font-family: "Overpass-Bold";
+  src: url("../fonts/Overpass/Overpass-Bold.ttf");
+}
+@font-face {
+  font-family: "Overpass-ExtraBold";
+  src: url("../fonts/Overpass/Overpass-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Overpass-Light";
+  src: url("../fonts/Overpass/Overpass-Light.ttf");
+}
+@font-face {
+  font-family: "Overpass";
+  src: url("../fonts/Overpass/Overpass-Regular.ttf");
+}
+@font-face {
+  font-family: "Overpass-SemiBold";
+  src: url("../fonts/Overpass/Overpass-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Overpass-ExtraLight";
+  src: url("../fonts/Overpass/Overpass-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Overpass-Thin";
+  src: url("../fonts/Overpass/Overpass-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler/Butler_Regular.otf");
+}
+
+@font-face {
+  font-family: "Vollkorn";
+  src: url("../fonts/Vollkorn/static/Vollkorn-Regular.ttf");
+}
+@font-face {
+  font-family: "Vollkorn-Italic";
+  src: url("../fonts/Vollkorn/static/Vollkorn-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Unica";
+  src: url("../fonts/Unica_One/UnicaOne-Regular.ttf");
+}
 
 html {
-  font-family: sans-serif;
+  font-family: serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background-color: var(--main);
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main);
+  
 }
 article,
 aside,
@@ -175,7 +245,7 @@ legend {
   display: table;
   max-width: 100%;
   padding: 0;
-  white-space: normal;
+  white-space: nowrap;
 }
 textarea {
   overflow: auto;
@@ -242,20 +312,12 @@ img {
   margin-bottom: 1.45rem;
 }
 h1 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+  
+  margin-bottom: 2rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: Unica;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 3.5rem;
   line-height: 1.1;
 }
 h2 {
@@ -268,8 +330,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Unica;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -285,8 +346,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Unica;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -302,8 +362,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Unica;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -319,8 +378,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Unica;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -336,8 +394,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Unica;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -398,14 +455,8 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
   margin-bottom: 1.45rem;
+  font-size: auto;
 }
 figure {
   margin-left: 0;
@@ -517,6 +568,9 @@ address {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+i {
+  font-family: Vollkorn-Italic;
+}
 b {
   font-weight: bold;
 }
@@ -611,7 +665,8 @@ td:last-child {
 }
 tt,
 code {
-  background-color: hsla(0, 0%, 0%, 0.04);
+  
+  color: var(--accent);
   border-radius: 3px;
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
@@ -640,4 +695,14 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex-grow: 1;
 }
