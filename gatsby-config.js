@@ -1,6 +1,9 @@
 const path = require('path')
 
 module.exports = {
+
+//  pathPrefix: "/reponame", // edit reponame here?
+
   siteMetadata: {
     title: `Mohak Jain`,
     description: `Personal Website & Blog`,
