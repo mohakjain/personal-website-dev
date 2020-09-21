@@ -6,9 +6,10 @@ module.exports = {
 
   siteMetadata: {
     title: `Mohak Jain`,
+    siteUrl: `https://mohakjain.github.io`,
     description: `Personal Website & Blog`,
     author: {name: `Mohak Jain`,
-    summary: `nothin here`
+    summary: `Personal website made by and for Mohak Jain.`
     },
   },
   plugins: [
@@ -88,7 +89,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: ``, // This path is relative to the root of the site.
+        icon: `content/assets/simple-logo.png`, // This path is relative to the root of the site.
       },
       
     },

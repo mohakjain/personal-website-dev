@@ -12,8 +12,8 @@ import Project from "../components/project"
 const Snapshot = () => {
   return (
     <div className="proj">
+      <Project />
       <Container> 
-      <h1> RECENTLY </h1>
       <h3> MEDIA I'VE BEEN CONSUMING LATELY:</h3>
 
     <h4> BOOKS: </h4> <p> <i> Dune </i> by Frank Herbert, <i> Kafka on the Shore </i> by Haruki Murakami, The {" "} 
@@ -88,7 +88,7 @@ const Snapshot = () => {
     </p>
       </Container>
       
-      <Project />
+     
     </div>
   )
 }
