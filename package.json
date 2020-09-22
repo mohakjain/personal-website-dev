@@ -54,5 +54,6 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "deploy:github": "npm run build && node ./deploy-github"
 }
