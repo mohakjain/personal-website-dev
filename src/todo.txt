@@ -6,12 +6,6 @@
 
 - Update Resume to most recent one
 
-- Decide if we really want orange hyperlinks or a different accent color
-
-- Move this to a repository
-
-- set up mohakjain.github.io
-
 - Add that new url to my resume/linkedin
 
 - Add mo.js animations
@@ -19,3 +13,7 @@
 - Bring in portfolio and set that up
 
 - Decide if there's a place here for my reflections/personal documents
+
+- Fix for mobile users.
+
+- Optimize SEO

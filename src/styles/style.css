@@ -41,10 +41,11 @@
     width: 100%;
     background-color: var(--black); /* Replace with vector bg later */
     color: var(--main);    
-    position: -webkit-sticky;
-
+    position: relative;
+    left: 0;
     bottom: 0;
-    padding-top: 2rem;
+    height: 5.5rem;
+    padding-top: 1rem;
 }
 
 .footer-floor {
@@ -135,3 +136,7 @@
     /* Make the link darker/lighter? to indicate hover */
 }
 
+.main-stuff {
+    min-height: calc(100vh - 5.5rem);
+    background-color: var(--main);
+}

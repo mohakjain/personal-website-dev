@@ -12,11 +12,12 @@ import logo from "../assets/simple-logo.png"
 
 const NavBar = ({}) => {
   return (
-    <Container className="acontainer" fluid>
+    <div className="acontainer">
+    <Container fluid>
       <Navbar className="all">
         <Navbar.Brand  className="navbar-item">
           
-          <Nav.Item className="all">
+          <Nav.Item className="all" style={{alignContent: "left" }}>
           <Link to="/" className="navbar-link nav-click">
             MOHAK JAIN 
 
@@ -79,6 +80,7 @@ const NavBar = ({}) => {
         </Navbar.Collapse>
       </Navbar>
     </Container>
+    </div>
   )
 }
 

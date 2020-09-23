@@ -42,7 +42,7 @@ const Hero = () => {
               >
                 Goodarzi Lab at UCSF
               </a>{" "}
-              working on a project involving the application of graph convolutional neural networks & deep learning to predict 3D genome architecture.
+              working on a project involving the application of graph convolutional neural networks & deep learning to predict 3D genome architecture, which is heavily implicated in cancer biology.
 
               Previously, I was a researcher at the{" "}
               <a
@@ -106,7 +106,9 @@ const Hero = () => {
           </Col>
           <Col md="auto">
             <Row>
+            <center>
               <img src={me} alt="" style={{ height: "20rem", marginTop: "1rem" }} />
+            </center>
             </Row>
             <center>
               {" "}

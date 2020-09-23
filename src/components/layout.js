@@ -13,6 +13,8 @@ import "../styles/layout.css"
 import NavBar from "./nav-bar"
 import Footer from "./footer"
 
+import "../styles/style.css"
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -27,7 +29,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <NavBar />
-      <main>
+      <main className="main-stuff">
         <div className="site-content"> {children} </div>
       </main>
       <Footer />
