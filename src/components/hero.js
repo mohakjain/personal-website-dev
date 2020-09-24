@@ -95,10 +95,11 @@ const Hero = () => {
               <Link className="link link-click" to="/blog">
                 blog
               </Link>
-              . In my free time, I occasionally like to make{" "}
+              . In my free time, I occasionally like to draw{" "}
+              {/* make{" "}
               <Link className="link link-click" to="/portfolio">
                 art
-              </Link>{" "}
+              </Link>{" "} */}
               and read fiction. My principal interests lie in venture capital, synthetic
               biology, gene editing tools, and machine learning. If any of these
               excite you too, please feel free to contact me via email at mohakjain@berkeley.edu! I'd love to chat.

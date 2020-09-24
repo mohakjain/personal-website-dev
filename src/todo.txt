@@ -4,17 +4,10 @@
 
 - Backgrounds for Hero, other content, footer, navbar
 
-- Update Resume to most recent one
-
-- Add that new url to my resume/linkedin
-
 - Add mo.js animations
 
 - Bring in portfolio and set that up
 
 - Decide if there's a place here for my reflections/personal documents
-
-- Fix for mobile users.
-    - still needs hamburger nav for mobile. 
 
 - SEO

@@ -139,5 +139,5 @@
 .main-stuff {
     min-height: calc(100vh - 5.5rem);
     background-color: var(--main);
-    padding-top: 5rem;
+    /* padding-top: 5.5vh; */
 }

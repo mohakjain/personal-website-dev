@@ -9,7 +9,8 @@ module.exports = {
     siteUrl: `https://mohakjain.github.io`,
     description: `Personal Website & Blog`,
     author: {name: `Mohak Jain`,
-    summary: `Personal website made by and for Mohak Jain.`
+    summary: `Personal website made by and for Mohak Jain.`,
+    image: `content/assets/simple-logo.png`
     },
   },
   plugins: [
