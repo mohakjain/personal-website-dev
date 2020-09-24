@@ -101,19 +101,33 @@ const Hero = () => {
               </Link>{" "}
               and read fiction. My principal interests lie in venture capital, synthetic
               biology, gene editing tools, and machine learning. If any of these
-              excite you too, please feel free to contact me! I'd love to chat.
+              excite you too, please feel free to contact me via email at mohakjain@berkeley.edu! I'd love to chat.
+            </p>
+            <p>
+              You can also find me on {" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="link link-click"
+                href="https://www.linkedin.com/in/mohak-jain/"
+                >
+                LinkedIn
+              </a>{" "}
+               or{" "} <a
+                target="_blank"
+                rel="noreferrer"
+                className="link link-click"
+                href="https://github.com/mohakjain"
+                >
+                GitHub
+              </a>.
+            
             </p>
           </Col>
-          <Col md="auto">
-            <Row>
-            <center>
-              <img src={me} alt="" style={{ height: "20rem", marginTop: "1rem" }} />
-            </center>
-            </Row>
-            <center>
-              {" "}
-              <Icons />
-            </center>
+          <Col md="auto" style={{textAlign: "center", display: "block", margin: "auto"}}>
+            
+              <img src={me} alt="" style={{ height: "20rem", }} />
+           
           </Col>
         </Row>
         <Row style={{textAlign: "center", display: "block"}}> 

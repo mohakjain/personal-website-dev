@@ -63,7 +63,7 @@ const NumC = () => {
               
           </Col>
           <Col md="auto">
-            <Row>
+            <Row style ={{textAlign: "center", display: "block"}}>
               <img src={code} alt="" style={{ height: "10rem", marginTop: "1.3rem" }} />
             </Row>
             

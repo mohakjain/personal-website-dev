@@ -12,9 +12,9 @@ import logo from "../assets/simple-logo.png"
 
 const NavBar = ({}) => {
   return (
-    <div className="acontainer">
-    <Container fluid>
-      <Navbar className="all">
+ /*   <div className="acontainer">
+    <Container fluid> */
+      <Navbar className="all" fixed="top">
         <Navbar.Brand  className="navbar-item">
           
           <Nav.Item className="all" style={{alignContent: "left" }}>
@@ -27,19 +27,10 @@ const NavBar = ({}) => {
           </Nav.Item>
         </Navbar.Brand>
         
-        <Navbar.Toggle aria-controls="navBarResponsive" />
-        <Navbar.Collapse id="navBarResponsive">
+        {/* <Navbar.Toggle aria-controls="navBarResponsive" />
+        <Navbar.Collapse id="navBarResponsive"> */}
           <Nav defaultActiveKey="/home" className="ml-auto">
-            {/* <Nav.Item className="navbar-item">
-              <Link
-                to="/about"
-                className="navbar-link nav-click"
-                activeClassName="active"
-              >
-                About
-              </Link>
-            </Nav.Item>
-             */}
+          
             <Nav.Item className="navbar-item">
               <Link
                 to="/blog"
@@ -77,10 +68,10 @@ const NavBar = ({}) => {
             </Nav.Item>
 
           </Nav>
-        </Navbar.Collapse>
+        {/* </Navbar.Collapse> */}
       </Navbar>
-    </Container>
-    </div>
+   /* </Container>
+    </div> */
   )
 }
 

@@ -3,7 +3,7 @@ import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/style.css"
 
-import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai"
+import { AiFillLinkedin, AiFillGithub, } from "react-icons/ai"
 
 const Icons = () => {
   return (
@@ -26,14 +26,6 @@ const Icons = () => {
         <AiFillGithub size={40} style={{ marginLeft: "1.5rem" }} />
       </a>
 
-      <a
-        target="_blank"
-        rel="noreferrer"
-        className="icon icon-click"
-        href="mailto:mohakjain@berkeley.edu"
-      >
-        <AiFillMail size={40} style={{ marginLeft: "1.5rem" }} />
-      </a>
     </div>
   )
 }

@@ -15,7 +15,9 @@
     padding-top: 10px;
     padding-right: 1rem;
     font-family: Unica;
-    font-size: 1.7rem;    
+    font-size: 1.7rem;  
+    background-color: var(--main);  
+    
 }
 
 .navbar-item {
