@@ -1,5 +1,5 @@
 ---
-title: "IMPOSTER SYNDROME"
+title: "SYNBIO ENTERS ELECTRONICS"
 date: "2020-09-28"
 description: "Zymergen’s HYALINE is the first of its kind: a bio-manufactured film that promises to revolutionize the electronics industry."
 excerpt: ""
