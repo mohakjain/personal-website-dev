@@ -1,7 +1,7 @@
 ---
 title: "ALT FOOD NEEDS TO BE BOLD"
 date: "2020-10-25"
-description: "Alternative food companies like Beyond Meat, Impossible Foods, and Perfect Day are VC dream children, but in order to live up to the hype, it's not enough to just emulate the foods of today."
+description: "Alternative food companies like Beyond Meat, Impossible Foods, and Perfect Day are VC dream children, but in order to live up to the hype, it's not enough to just emulate today's foods."
 excerpt: ""
 image: "../../blog/alt-food/brave-robot.jpg"
 tags: "ALTERNATIVE FOOD"
