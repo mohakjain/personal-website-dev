@@ -34,7 +34,7 @@ const Hero = () => {
             </p>
           
             <p>
-              I'm starting this summer as a software engineering intern at{" "}
+              As of now, this summer I will be starting as a software engineering intern at{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -43,7 +43,7 @@ const Hero = () => {
               >
                 Datavant.
               </a>{" "}
-              As of now, I'm a researcher at the{" "}
+              I'm a researcher at the{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -88,7 +88,7 @@ const Hero = () => {
                 Phoenix Consulting Group
               </a>
               , specialized in consulting for companies in the healthcare and
-              life sciences space. I'm co-leading a team launching a healthcare accerator serving early-stage projects on campus. We're hosting a demo day this semester. For more infomration, check out{" "}
+              life sciences space. I'm co-leading a team launching a healthcare accerator serving early-stage projects on campus. We're hosting a demo day this semester. For more information, check out{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
