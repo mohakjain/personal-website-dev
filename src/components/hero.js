@@ -20,7 +20,7 @@ const Hero = () => {
             {" "}
             <h1>ABOUT</h1>
             <p>
-              Hi. I'm Mohak, an undergraduate at{" "}
+              Hi! I'm Mohak, an undergraduate at{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -32,8 +32,29 @@ const Hero = () => {
                studying
               EECS and bioengineering.
             </p>
+          
             <p>
-              As of now, I'm starting remotely at the{" "}
+              I'm starting this summer as a software engineering intern at{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="link link-click"
+                href="https://datavant.com/"
+              >
+                Datavant.
+              </a>{" "}
+              As of now, I'm a researcher at the{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="link link-click"
+                href="https://doudnalab.org/"
+              >
+                Doudna Lab
+              </a>{" "}
+              working on a project involving computational and wetlab processing of biological samples and NGS data to identify novel CRISPR systems.
+              I am also concurrently a researcher at the{" "}
+              
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -43,18 +64,7 @@ const Hero = () => {
                 Goodarzi Lab at UCSF
               </a>{" "}
               working on a project involving the application of graph convolutional neural networks & deep learning to predict 3D genome architecture, which is heavily implicated in cancer biology.
-
-              Previously, I was a researcher at the{" "}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                className="link link-click"
-                href="https://doudnalab.org/"
-              >
-                Doudna Lab
-              </a>{" "}
-              working on a project involving CRISPR acquisition of DNA & RNA
-              spacers. I've also previously worked at{" "}
+              I've also previously worked at{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -66,8 +76,9 @@ const Hero = () => {
               , a synthetic biology startup where I worked on developing novel
               gene editing tools in yeast.
             </p>
+
             <p>
-              At Berkeley, I'm an analyst for{" "}
+              At Berkeley, I'm a principal for{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -77,17 +88,20 @@ const Hero = () => {
                 Phoenix Consulting Group
               </a>
               , specialized in consulting for companies in the healthcare and
-              life sciences space. I've also danced and done graphic design as
-              part of {" "}
+              life sciences space. I'm co-leading a team launching a healthcare accerator serving early-stage projects on campus. We're hosting a demo day this semester. For more infomration, check out{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 className="link link-click"
-                href="https://afx.dance/"
+                href="https://www.readysethealth.io/"
               >
-                AFX
+                Ready, Set, Health!
               </a>
-              , a hip-hop dance organization and the largest club on campus.
+
+              
+              </p>
+              <p>
+              
             </p>
             <p>
               I write about biotech startups and other things that make me
@@ -95,12 +109,21 @@ const Hero = () => {
               <Link className="link link-click" to="/blog">
                 blog
               </Link>
-              . In my free time, I occasionally like to draw{" "}
+              . In my free time, I occasionally like to draw,{" "}
               {/* make{" "}
               <Link className="link link-click" to="/portfolio">
                 art
               </Link>{" "} */}
-              and read fiction. My principal interests lie in venture capital, synthetic
+               read fiction, and {" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="link link-click"
+                href="https://afx.dance/"
+              >
+                hip hop dance
+              </a>
+              . My principal interests lie in venture capital, synthetic
               biology, gene editing tools, and machine learning. If any of these
               excite you too, please feel free to contact me via email at mohakjain@berkeley.edu! I'd love to chat.
             </p>
