@@ -27,6 +27,15 @@ const NavBar = ({}) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav defaultActiveKey="/home" className="ml-auto">
+        <Nav.Item className="navbar-item">
+            <Link
+              to="/"
+              className="navbar-link nav-click"
+              activeClassName="active"
+            >
+              ABOUT
+            </Link>
+          </Nav.Item>
           <Nav.Item className="navbar-item">
             <Link
               to="/blog"
@@ -37,7 +46,7 @@ const NavBar = ({}) => {
             </Link>
           </Nav.Item>
 
-          <Nav.Item className="navbar-item">
+          {/* <Nav.Item className="navbar-item">
             <Link
               to="/portfolio"
               className="navbar-link nav-click"
@@ -45,7 +54,7 @@ const NavBar = ({}) => {
             >
               PORTFOLIO
             </Link>
-          </Nav.Item>
+          </Nav.Item> */}
 
           <Nav.Item className="navbar-item">
             <Link className="navbar-link nav-click" activeClassName="active">

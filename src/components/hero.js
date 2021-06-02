@@ -31,19 +31,20 @@ const Hero = () => {
               </a>{" "}
                studying
               EECS and bioengineering.
-            </p>
+           
           
-            <p>
-              As of now, this summer I will be starting as a software engineering intern at{" "}
+            
+              I am currently a software engineering intern at{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 className="link link-click"
                 href="https://datavant.com/"
               >
-                Datavant.
-              </a>{" "}
-              I'm a researcher at the{" "}
+                Datavant
+              </a>, a startup company dedicated to desiloing healthcare data while preserving patient privacy. {" "} </p>
+              <p>
+              Previously, I was a computational and wet-lab researcher at the{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -51,20 +52,9 @@ const Hero = () => {
                 href="https://doudnalab.org/"
               >
                 Doudna Lab
-              </a>{" "}
-              working on a project involving computational and wetlab processing of biological samples and NGS data to identify novel CRISPR systems.
-              I am also concurrently a researcher at the{" "}
+              </a>.{" "}
               
-              <a
-                target="_blank"
-                rel="noreferrer"
-                className="link link-click"
-                href="https://goodarzilab.ucsf.edu/"
-              >
-                Goodarzi Lab at UCSF
-              </a>{" "}
-              working on a project involving the application of graph convolutional neural networks & deep learning to predict 3D genome architecture, which is heavily implicated in cancer biology.
-              I've also previously worked at{" "}
+              I've interned at{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -75,20 +65,23 @@ const Hero = () => {
               </a>
               , a synthetic biology startup where I worked on developing novel
               gene editing tools in yeast.
-            </p>
-
-            <p>
-              At Berkeley, I'm a principal for{" "}
+            
+            I also was a researcher with the{" "}
+              
               <a
                 target="_blank"
                 rel="noreferrer"
                 className="link link-click"
-                href="https://phoenix.berkeley.edu/"
+                href="https://goodarzilab.ucsf.edu/"
               >
-                Phoenix Consulting Group
-              </a>
-              , specialized in consulting for companies in the healthcare and
-              life sciences space. I'm co-leading a team launching a healthcare accerator serving early-stage projects on campus. We're hosting a demo day this semester. For more information, check out{" "}
+                Goodarzi Lab at UCSF
+              </a>.{" "}
+             
+              </p>
+            <p>
+              At Berkeley, I'm co-leading development of an accelerator for early-stage healthcare companies. 
+              We recently hosted a demo day in May, where we held a pitch competition and awarded the winning startup a $25,000 prize. 
+              We provided networking opportunities for 20+ companies and 30+ investors at the cutting edge of healthcare. For more information, check out{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -98,10 +91,17 @@ const Hero = () => {
                 Ready, Set, Health!
               </a>
 
-              
-              </p>
-              <p>
-              
+              {" "}Additionaly, I am a principal for{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="link link-click"
+                href="https://phoenix.berkeley.edu/"
+              >
+                Phoenix Consulting Group
+              </a>
+              , specialized in consulting for companies in the healthcare and
+              life sciences space.
             </p>
             <p>
               I write about biotech startups and other things that make me
@@ -123,8 +123,8 @@ const Hero = () => {
               >
                 hip hop dance
               </a>
-              . My principal interests lie in venture capital, synthetic
-              biology, gene editing tools, and machine learning. If any of these
+              . My principal interests lie in venture capital, computational and synthetic
+              biology, and gene editing tools. If any of these
               excite you too, please feel free to contact me via email at mohakjain@berkeley.edu! I'd love to chat.
             </p>
             <p>

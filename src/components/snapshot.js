@@ -14,9 +14,11 @@ const Snapshot = () => {
     <div className="proj">
       <Project />
       <Container> 
-      <h2> OFF THE SHELF:</h2>
+      <h2> RECENT MEDIA:</h2>
 
-    <h4> BOOKS: </h4> <p> <i> Dune </i> by Frank Herbert, <i> The Secret History </i> by Donna Tartt, & <i>Love in the Time of Cholera </i> by Gabriel Garcia Marquez
+    <h4> BOOKS: </h4> <p> <i> Dune </i> by Frank Herbert, <i> The Secret History </i> by Donna Tartt, & <i>The Dark Forest </i> by Liu Cixin
+      </p>
+    <h4> ALBUMS: </h4> <p> <i> Punisher </i> by Phoebe Bridgers, <i> Little Dark Age </i> by MGMT, & <i>Nurture </i> by Porter Robinson
       </p>
       </Container>
       
